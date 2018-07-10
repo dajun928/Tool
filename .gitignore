@@ -1,0 +1,14 @@
+
+ScrapyDemo/__init__.py
+ScrapyDemo/mySpider/mySpider/__init__.py
+ScrapyDemo/mySpider/mySpider/middlewares.py
+ScrapyDemo/mySpider/mySpider/items.py
+ScrapyDemo/mySpider/mySpider/pipelines.py
+ScrapyDemo/mySpider/mySpider/settings.py
+ScrapyDemo/mySpider/mySpider/spiders/__init__.py
+ScrapyDemo/mySpider/mySpider/spiders/itcastspider.py
+ScrapyDemo/mySpider/mySpider/spiders/itcastspider.pyc
+ScrapyDemo/mySpider/mySpider/spiders/__init__.pyc
+ScrapyDemo/mySpider/scrapy.cfg
+ScrapyDemo/mySpider/start.py
+ScrapyDemo/mySpider/teach.json
