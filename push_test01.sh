@@ -1,19 +1,17 @@
-#! /bin/bash
+#!/bin/bash
 
-echo "------------------------------------------------------------------"
-echo "||                          start                               ||"
-echo "------------------------------------------------------------------"
-if [ -z $1 ]
-then
-    echo "------------------------------------------------------------------"
-    echo "||                        填写注释                              ||"
-    echo "------------------------------------------------------------------"
-else
-    git add .
-    git commit -m $1
-    git push 
+echo "start git add commit fetch merge push"
+echo "git add -A"
+git add -A
 
-    echo "------------------------------------------------------------------"
-    echo "||                           end                                ||"
-    echo "------------------------------------------------------------------"
-fi
+echo "git commit -m 'leetcode-louyuting'"
+git commit -m 'leetcode-louyuting'
+
+echo "git fetch origin master"
+git fetch origin master
+
+echo "git merge origin/master"
+git merge origin/master
+
+echo "git push origin master:master"
+git push origin master:master
