@@ -49,7 +49,7 @@ def copyfile(src, dsc):
 
 def main():
     A = r"/root/homework"
-    B = r"/root/Projects/gitdemo/test/Tool"
+    B = r"/root/Projects/gitdemo/test/Tool/Tool"
     copydir(A, B)
     result = copyfile(A, B)
     # print(result)
