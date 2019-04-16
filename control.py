@@ -54,7 +54,7 @@ def copyfile(src, dsc):
 
 def cut_single_file():
     A = r"/root/homework"
-    B = r"/root/Projects/gitdemo/test/Tool"
+    B = r"/root/Projects/gitdemo/test/Tool/Tool"
     copydir(A, B)
     result = copyfile(A, B)
     # print(result)
@@ -75,9 +75,9 @@ if __name__ == '__main__':
     scheduler = BlockingScheduler()
 
     # 设置定时调度本类的方法
-    scheduler.add_job(cut_single_file, 'cron', hour ='16',minute ='20')
+    scheduler.add_job(cut_single_file, 'cron', hour ='00',minute ='29')
 
-    scheduler.add_job(push, 'cron', hour ='16',minute ='20')
+    scheduler.add_job(push, 'cron', hour ='00',minute ='30')
 
     # 启动调度
     try:
