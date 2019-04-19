@@ -18,10 +18,10 @@ def copydir(path, out):
         name = os.path.join(path, files)
         back_name = os.path.join(out, files)
         if os.path.isfile(name):
-            if os.path.isfile(back_name):                
+            if os.path.isfile(back_name):
                 print(back_name)
             else:
-                print(back_name)                
+                print(back_name)
         else:
             if not os.path.isdir(back_name):
                 os.makedirs(back_name)
@@ -43,10 +43,14 @@ def copyfile(src, dsc):
 def cut_single_file():
     A = r"/root/homework"
     B = r"/root/Projects/gitdemo/test/Tool"
+
+    # A=r"D:\test\a"
+    # B=r"D:\test\b"
     copydir(A, B)
-    result = copyfile(A, B)    
+    result = copyfile(A, B)
     if result:
-        src_file, dsc_path = result.pop()       
+        src_file, dsc_path = result.pop()
+        print(src_file)
         shutil.move(src_file, dsc_path)
 
 #本类的方法
@@ -56,15 +60,16 @@ def push():
     subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
 
 if __name__ == '__main__':
-    scheduler = BlockingScheduler()
-
-    # 设置定时调度本类的方法
-    scheduler.add_job(cut_single_file, 'cron', hour ='22',minute ='46')
-
-    scheduler.add_job(push, 'cron', hour ='22',minute ='47')
-
-    # 启动调度
-    try:
-        scheduler.start()
-    except (KeyboardInterrupt, SystemExit):
-        scheduler.shutdown()
+    # scheduler = BlockingScheduler()
+    #
+    # # 设置定时调度本类的方法
+    # scheduler.add_job(cut_single_file, 'cron', hour ='16',minute ='20')
+    #
+    # scheduler.add_job(push, 'cron', hour ='16',minute ='20')
+    #
+    # # 启动调度
+    # try:
+    #     scheduler.start()
+    # except (KeyboardInterrupt, SystemExit):
+    #     scheduler.shutdown()
+    cut_single_file()
