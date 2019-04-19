@@ -44,7 +44,7 @@ def copyfile(src, dsc):
 
 def cut_single_file():
     A = r"/root/homework"
-    B = r"/root/Projects/gitdemo/test/Tool"
+    B = r"/root/Projects/gitdemo/test/Tool/Tool"
 
     # A=r"D:\test\a"
     # B=r"D:\test\b"
