@@ -62,16 +62,16 @@ def push():
     subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
 
 if __name__ == '__main__':
-    # scheduler = BlockingScheduler()
-    #
-    # # 设置定时调度本类的方法
-    # scheduler.add_job(cut_single_file, 'cron', hour ='16',minute ='20')
-    #
-    # scheduler.add_job(push, 'cron', hour ='16',minute ='20')
-    #
-    # # 启动调度
-    # try:
-    #     scheduler.start()
-    # except (KeyboardInterrupt, SystemExit):
-    #     scheduler.shutdown()
-    cut_single_file()
+    scheduler = BlockingScheduler()
+
+    # 设置定时调度本类的方法
+    scheduler.add_job(cut_single_file, 'cron', hour ='23',minute ='22')
+
+    scheduler.add_job(push, 'cron', hour ='23',minute ='23')
+
+    # 启动调度
+    try:
+        scheduler.start()
+    except (KeyboardInterrupt, SystemExit):
+        scheduler.shutdown()
+    # cut_single_file()
