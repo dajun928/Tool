@@ -59,9 +59,9 @@ if __name__ == '__main__':
     scheduler = BlockingScheduler()
 
     # 设置定时调度本类的方法
-    scheduler.add_job(cut_single_file, 'cron', hour ='22',minute ='05')
+    scheduler.add_job(cut_single_file, 'cron', hour ='22',minute ='46')
 
-    scheduler.add_job(push, 'cron', hour ='22',minute ='06')
+    scheduler.add_job(push, 'cron', hour ='22',minute ='47')
 
     # 启动调度
     try:
