@@ -19,9 +19,11 @@ def copydir(path, out):
         back_name = os.path.join(out, files)
         if os.path.isfile(name):
             if os.path.isfile(back_name):
-                print(back_name)
+                # print(back_name)
+                pass
             else:
-                print(back_name)
+                # print(back_name)
+                pass
         else:
             if not os.path.isdir(back_name):
                 os.makedirs(back_name)
