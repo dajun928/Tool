@@ -30,3 +30,9 @@ To git@github.com:dajun928/Tool.git
    aa69824..ee374c7  master -> master
 To git@github.com:dajun928/Tool.git
    ee374c7..24f6186  master -> master
+Received disconnect from 13.250.177.223 port 22:11: Bye Bye
+Authentication failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
