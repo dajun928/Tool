@@ -572,3 +572,5 @@ Traceback (most recent call last):
 shutil.Error: Destination path '/root/Projects/gitdemo/test/Tool/Tool/README.md' already exists
 To git@github.com:dajun928/Tool.git
    2387013..0cc6fab  master -> master
+To git@github.com:dajun928/Tool.git
+   0cc6fab..351c6fd  master -> master
