@@ -1,0 +1,10 @@
+import requests
+
+url="http://127.0.0.1:8060/"        # local test
+
+
+responses=requests.get(url)
+print(responses)
+# 查看响应内容，response.text 返回的是Unicode格式的数据
+print(responses.text)
+
