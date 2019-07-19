@@ -607,3 +607,188 @@ To git@github.com:dajun928/Tool.git
    4025b74..6457836  master -> master
 To git@github.com:dajun928/Tool.git
    6457836..d69345e  master -> master
+To git@github.com:dajun928/Tool.git
+   d69345e..42b8568  master -> master
+/root/homework/myTools/Del_Files.py
+Tick! The time is: 2019-04-19 23:23:00.002854
+/root/homework/myTools/TimeConvert.py
+Tick! The time is: 2019-04-20 23:23:00.002778
+/root/homework/myTools/Copy_Files.py
+Tick! The time is: 2019-04-21 23:23:00.002909
+/root/homework/myTools/MysqlHelper01.py
+Tick! The time is: 2019-04-22 23:23:00.002861
+/root/homework/myTools/__init__.py
+Tick! The time is: 2019-04-23 23:23:00.003425
+/root/homework/myTools/oracel_helper.py
+Tick! The time is: 2019-04-24 23:23:00.001790
+/root/homework/schedul/job.py
+Tick! The time is: 2019-04-25 23:23:00.001913
+/root/homework/redis/redislogin.py
+Tick! The time is: 2019-04-26 23:23:00.002276
+/root/homework/redis/testredis.py
+Tick! The time is: 2019-04-27 23:23:00.002190
+/root/homework/redis/RedisHelper.pyc
+Tick! The time is: 2019-04-28 23:23:00.001847
+/root/homework/redis/testredis03.py
+Tick! The time is: 2019-04-29 23:23:00.001794
+/root/homework/redis/testredis01.py
+Tick! The time is: 2019-04-30 23:23:00.002297
+/root/homework/redis/MessageProduce.py
+Tick! The time is: 2019-05-01 23:23:00.002232
+/root/homework/redis/MessageConsumer.py
+Tick! The time is: 2019-05-02 23:23:00.002288
+/root/homework/redis/testredis011.py
+Tick! The time is: 2019-05-03 23:23:00.001717
+/root/homework/redis/__init__.py
+Tick! The time is: 2019-05-04 23:23:00.002257
+/root/homework/redis/pipe01.py
+Tick! The time is: 2019-05-05 23:23:00.001885
+/root/homework/redis/testredis02.py
+Tick! The time is: 2019-05-06 23:23:00.002065
+/root/homework/redis/RedisHelper.py
+Tick! The time is: 2019-05-07 23:23:00.002017
+/root/homework/redis/testredis01.pyc
+Tick! The time is: 2019-05-08 23:23:00.001929
+/root/homework/mysql/autoquery.py
+Tick! The time is: 2019-05-09 23:23:00.001958
+/root/homework/mysql/testLogin.py
+Tick! The time is: 2019-05-10 23:23:00.002405
+/root/homework/mysql/autoinsert.py
+Tick! The time is: 2019-05-11 23:23:00.001791
+/root/homework/mysql/MysqlHelper.py
+Tick! The time is: 2019-05-12 23:23:00.002024
+/root/homework/mysql/MysqlHelper.pyc
+Tick! The time is: 2019-05-13 23:23:00.001845
+/root/homework/mysql/__init__.py
+Tick! The time is: 2019-05-14 23:23:00.001992
+/root/homework/mysql/testInsertWrap.py
+Tick! The time is: 2019-05-15 23:23:00.001828
+/root/homework/testQuery.py
+Tick! The time is: 2019-05-16 23:23:00.001870
+/root/homework/aaa.txt
+Tick! The time is: 2019-05-17 23:23:00.002219
+/root/homework/test01.sh
+Tick! The time is: 2019-05-18 23:23:00.001853
+/root/homework/test.log
+Tick! The time is: 2019-05-19 23:23:00.001966
+/root/homework/test.py
+Tick! The time is: 2019-05-20 23:23:00.002184
+/root/homework/testDelete.py
+Tick! The time is: 2019-05-21 23:23:00.001978
+/root/homework/README.md
+Tick! The time is: 2019-05-22 23:23:00.001998
+/root/homework/README.md
+Tick! The time is: 2019-05-23 23:23:00.001922
+/root/homework/README.md
+Tick! The time is: 2019-05-24 23:23:00.001903
+/root/homework/README.md
+Tick! The time is: 2019-05-25 23:23:00.001920
+/root/homework/README.md
+Tick! The time is: 2019-05-26 23:23:00.001925
+/root/homework/README.md
+Tick! The time is: 2019-05-27 23:23:00.001950
+/root/homework/README.md
+Tick! The time is: 2019-05-28 23:23:00.001777
+/root/homework/README.md
+Tick! The time is: 2019-05-29 23:23:00.002326
+/root/homework/README.md
+Tick! The time is: 2019-05-30 23:23:00.001839
+/root/homework/README.md
+Tick! The time is: 2019-05-31 23:23:00.001833
+/root/homework/README.md
+Tick! The time is: 2019-06-01 23:23:00.001924
+/root/homework/README.md
+Tick! The time is: 2019-06-02 23:23:00.001803
+/root/homework/README.md
+Tick! The time is: 2019-06-03 23:23:00.001897
+/root/homework/README.md
+Tick! The time is: 2019-06-04 23:23:00.001847
+/root/homework/README.md
+Tick! The time is: 2019-06-05 23:23:00.001933
+/root/homework/README.md
+Tick! The time is: 2019-06-06 23:23:00.001862
+/root/homework/README.md
+Tick! The time is: 2019-06-07 23:23:00.001912
+/root/homework/README.md
+Tick! The time is: 2019-06-08 23:23:00.001866
+/root/homework/README.md
+Tick! The time is: 2019-06-09 23:23:00.001848
+/root/homework/README.md
+Tick! The time is: 2019-06-10 23:23:00.002105
+/root/homework/README.md
+Tick! The time is: 2019-06-11 23:23:00.001802
+/root/homework/test_wdj.py
+Tick! The time is: 2019-06-12 23:23:00.001960
+/root/homework/access.log
+Tick! The time is: 2019-06-13 23:23:00.002016
+/root/homework/README.md
+Tick! The time is: 2019-06-14 23:23:00.001786
+/root/homework/README.md
+Tick! The time is: 2019-06-15 23:23:00.001845
+/root/homework/README.md
+Tick! The time is: 2019-06-16 23:23:00.002046
+/root/homework/README.md
+Tick! The time is: 2019-06-17 23:23:00.001935
+/root/homework/README.md
+Tick! The time is: 2019-06-18 23:23:00.001861
+/root/homework/README.md
+Tick! The time is: 2019-06-19 23:23:00.001808
+/root/homework/README.md
+Tick! The time is: 2019-06-20 23:23:00.001970
+/root/homework/README.md
+Tick! The time is: 2019-06-21 23:23:00.002024
+/root/homework/README.md
+Tick! The time is: 2019-06-22 23:23:00.001877
+/root/homework/README.md
+Tick! The time is: 2019-06-23 23:23:00.001929
+/root/homework/README.md
+Tick! The time is: 2019-06-24 23:23:00.001830
+/root/homework/README.md
+Tick! The time is: 2019-06-25 23:23:00.001812
+/root/homework/README.md
+Tick! The time is: 2019-06-26 23:23:00.002028
+/root/homework/README.md
+Tick! The time is: 2019-06-27 23:23:00.002065
+/root/homework/README.md
+Tick! The time is: 2019-06-28 23:23:00.017080
+/root/homework/README.md
+Tick! The time is: 2019-06-29 23:23:00.001783
+/root/homework/README.md
+Tick! The time is: 2019-06-30 23:23:00.002075
+/root/homework/README.md
+Tick! The time is: 2019-07-01 23:23:00.001809
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/install_egg_info.cpython-36.pyc
+Tick! The time is: 2019-07-02 23:23:00.002155
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/alias.cpython-36.pyc
+Tick! The time is: 2019-07-03 23:23:00.001966
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/install_lib.cpython-36.pyc
+Tick! The time is: 2019-07-04 23:23:00.001874
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/test.cpython-36.pyc
+Tick! The time is: 2019-07-05 23:23:00.002304
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/build_ext.cpython-36.pyc
+Tick! The time is: 2019-07-06 23:23:00.001704
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/dist_info.cpython-36.pyc
+Tick! The time is: 2019-07-07 23:23:00.001890
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/bdist_egg.cpython-36.pyc
+Tick! The time is: 2019-07-08 23:23:00.001920
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/bdist_wininst.cpython-36.pyc
+Tick! The time is: 2019-07-09 23:23:00.001935
+/root/homework/flask_test/logs/logs/access.log
+Tick! The time is: 2019-07-10 23:23:00.001881
+/root/homework/flask_test/logs/logs/error.log
+Tick! The time is: 2019-07-11 23:23:00.001970
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/py36compat.cpython-36.pyc
+Tick! The time is: 2019-07-12 23:23:00.001873
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/__init__.cpython-36.pyc
+Tick! The time is: 2019-07-13 23:23:00.019349
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/saveopts.cpython-36.pyc
+Tick! The time is: 2019-07-14 23:23:00.002229
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/setopt.cpython-36.pyc
+Tick! The time is: 2019-07-15 23:23:00.001903
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/easy_install.cpython-36.pyc
+Tick! The time is: 2019-07-16 23:23:00.001942
+/root/homework/flask_test/flask_test/lib/python3.6/site-packages/setuptools/command/__pycache__/upload.cpython-36.pyc
+Tick! The time is: 2019-07-17 23:23:00.002077
+/root/homework/docker_test/flask_demo/test.py
+Tick! The time is: 2019-07-18 23:23:00.001905
+/root/homework/docker_test/flask_demo/api_client.py
