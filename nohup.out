@@ -1495,3 +1495,14 @@ Traceback (most recent call last):
   File "/root/anaconda3/lib/python3.6/shutil.py", line 542, in move
     raise Error("Destination path '%s' already exists" % real_dst)
 shutil.Error: Destination path '/root/Projects/gitdemo/test/Tool/Tool/test.py' already exists
+To git@github.com:dajun928/Tool.git
+   0000265..d8cd54d  master -> master
+Job "cut_single_file (trigger: cron[hour='23', minute='22'], next run at: 2019-10-02 23:22:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "control.py", line 56, in cut_single_file
+    shutil.move(src_file, dsc_path)
+  File "/root/anaconda3/lib/python3.6/shutil.py", line 542, in move
+    raise Error("Destination path '%s' already exists" % real_dst)
+shutil.Error: Destination path '/root/Projects/gitdemo/test/Tool/Tool/test.py' already exists
