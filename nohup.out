@@ -1715,3 +1715,5 @@ Traceback (most recent call last):
   File "/root/anaconda3/lib/python3.6/shutil.py", line 542, in move
     raise Error("Destination path '%s' already exists" % real_dst)
 shutil.Error: Destination path '/root/Projects/gitdemo/test/Tool/Tool/test.py' already exists
+To git@github.com:dajun928/Tool.git
+   f2dac7e..e6a244d  master -> master
