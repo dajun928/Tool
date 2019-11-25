@@ -65,19 +65,20 @@ def update_log():
     print('Tick! The time is: %s' % datetime.now())
     cmd = 'sh update_log.sh'
     subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
+
 if __name__ == '__main__':
     scheduler = BlockingScheduler()
 
     # 设置定时调度本类的方法
-    #scheduler.add_job(update_log, 'cron', hour ='0',minute ='1')
+    scheduler.add_job(update_log, 'cron', hour ='20',minute ='1')
 
-    #scheduler.add_job(push, 'cron', hour ='0',minute ='2')
+    scheduler.add_job(push, 'cron', hour ='20',minute ='12')
 
     # 启动调度
-    #try:
-    #    scheduler.start()
-    #except (KeyboardInterrupt, SystemExit):
-    #    scheduler.shutdown()
+    try:
+        scheduler.start()
+    except (KeyboardInterrupt, SystemExit):
+        scheduler.shutdown()
     # cut_single_file()
-    update_log()
-    push()
+    #update_log()
+    #push()
