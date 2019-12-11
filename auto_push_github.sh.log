@@ -26,3 +26,7 @@
 [master 779c971] 20191211225148
  1 file changed, 3 insertions(+)
 系统时间为: 20191211225947
+[master 5e83988] 20191211225947
+ 3 files changed, 20 insertions(+), 1 deletion(-)
+ create mode 100644 control_sh.py
+系统时间为: 20191211232004
