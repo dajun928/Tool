@@ -9,7 +9,7 @@ import time
 import random
 
 def push():
-    num = random.randint(1, 4)
+    num = random.randint(1, 6)
     for i in range(num):
         cmd = 'sh auto_push_github.sh'
         subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
